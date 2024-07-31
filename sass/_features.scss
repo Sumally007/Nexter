@@ -2,7 +2,7 @@
     grid-column: center-start / center-end;
     margin: 15rem 0;
     
-    @support(
+    @supports(
         display: grid){
         
         display: grid;
@@ -18,7 +18,7 @@
     width: 33.3333%;
     margin-bottom: 6rem;
 
-    @support(display: grid){
+    @supports(display: grid){
             width: auto;
             margin-bottom: 0;
     }
